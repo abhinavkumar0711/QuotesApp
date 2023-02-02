@@ -1,0 +1,76 @@
+.bg{
+    height: 100vh;
+    /* display: flex;
+        align-items: center;
+        justify-content: center; */
+}
+.quote_box{
+    /* margin: auto; */
+    border: 10px solid rgb(105, 105, 196);
+    width: 600px;
+    padding: 10px;
+    position: absolute;
+    top: 22%;
+    left: 23%;
+    border-top-color: #16DB93;
+    border-bottom-color: #A4036F;
+    border-left-color: #EFEA5A;
+    border-right-color: #FE5E41;
+}
+.btn{
+    display:flex;
+    justify-content: center;
+}
+.quotes{
+    text-align: center;
+    font-family: Courier;
+
+    font-size: 23px;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    font-family: 'Gambetta', serif;
+    transition: 700ms ease;
+    font-variation-settings: "wght" 311;
+    margin-bottom: 0.8rem;
+    color: rgb(51, 4, 116);
+    outline: none;
+    text-align: center;
+}
+.author{
+    font-size: 20px;
+    
+}
+/* CSS */
+.button-22 {
+    align-items: center;
+    appearance: button;
+    background-color: #0276FF;
+    border-radius: 8px;
+    border-style: none;
+    box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    font-family: "RM Neue", sans-serif;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+    padding: 10px 21px;
+    text-align: center;
+    text-transform: none;
+    transition: color .13s ease-in-out, background .13s ease-in-out, opacity .13s ease-in-out, box-shadow .13s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-22:active {
+    background-color: #006AE8;
+}
+
+.button-22:hover {
+    background-color: #1C84FF;
+}
